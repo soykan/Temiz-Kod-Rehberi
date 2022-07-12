@@ -7,4 +7,4 @@
 
 - İsimlendirmeler birbirinden ayırt edilebilir olmalı, kafa karışıklığına yol açmamalıdır. Örneğin; "Product", "ProductData", "ProductInfo" gibi birbirine benzeyen ancak farklı amaçlara hizmet eden tanımlamalardan kaçınılmalıdır.
 
-- Telaffuz edilebilir isimlendirmeler kullanılmalıdır. Örneğin "private Date genymdhms;" şeklinde bir tanımlama yerine "private Date generationTimestamp" kullanılmalıdır.
+- Telaffuz edilebilir isimlendirmeler kullanılmalıdır. Örneğin "private Date genymdhms;" şeklinde bir tanımlama yerine "private Date generationTimestamp;" kullanılmalıdır.
