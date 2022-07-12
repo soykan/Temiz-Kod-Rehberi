@@ -5,7 +5,6 @@
 
 - Birbirine benzeyen uzun değişken isimlendirmelerinden kaçınılmalıdır çünkü otomatik kod tamamlama özelliğine sahip editör veya geliştirme ortamlarında hatalara yol açabilir.
 
-- İsimlendirmeler birbirinden ayırt edilebilir olmalı, kafa karışıklığına yol açmamalıdır. Örneğin;
-> Product, ProductData, ProductInfo
+- İsimlendirmeler birbirinden ayırt edilebilir olmalı, kafa karışıklığına yol açmamalıdır. Örneğin; "Product", "ProductData", "ProductInfo" gibi birbirine benzeyen ancak farklı amaçlara hizmet eden tanımlamalardan kaçınılmalıdır.
 
-gibi birbirine benzeyen isimlendirmeleri bir arada kullanmak kafa karışıklığına yol açar.
+- Telaffuz edilebilir isimlendirmeler kullanılmalıdır. Örneğin "private Date genymdhms;" şeklinde bir tanımlama yerine "private Date generationTimestamp" kullanılmalıdır.
