@@ -11,6 +11,28 @@
 - Telaffuz edilebilir isimlendirmeler kullanılmalıdır.\
 Örneğin "private Date genymdhms;" şeklinde bir tanımlama yerine "private Date generationTimestamp;" kullanılmalıdır.
 
-- Sabit, nümerik veya string değerler constant değişkenlerde tutulmalıdır. Örneğin; \
-public static final int CONSTANT_INTEGER = 5;\
-public static final String CONSTANT_STRING = "some constant";
+- Sabit, nümerik veya string değerler constant değişkenlerde tutulmalı ve amacına uygun isimlendirilmelidir. Örneğin; \
+public static final int NUMBER_OF_WHEELS = 4;\
+public static final String BRAND_NAME = "TOYOTA";
+
+- İsimlendirmede veri tipine yer verilirse, veri tipi değiştikçe, isimlendirme de değişmek zorunda kalır. İsimlendirmede gerekmedikçe veri tipine yer verilmez.
+
+- Interface'lerin başına "I" harfi eklemek yerine, onu implemente eden sınıfların sonuna "Imp" eklenmesi daha uygundur. Örneğin; \
+Interface: ShapeFactory\
+Sınıf:     ShapeFactoryImp
+
+- Method isimleri "verb" (eylem) olmalı, sınıf isimleri ise "verb" olmamalı, "noun" veya "noun phrase" (isim veya isim tamlaması) olmalıdır.
+
+## Fonksiyonlar
+
+- Fonksiyon veya method gövdesi uzadıkça parçalanabilirliği sorgulanmalıdır. Sorgu sonucu method veya fonksiyon birden fazla iş yapıyorsa, yeni method veya fonksiyonlar oluşturulup, her biri tek iş yapacak şekilde (Single Responsibility Principle ışığında) tasarlanmalıdır.
+
+- If, Else, While yapılarının gövdesinde bulunan kod satırı sadece bir satır olmalı ve bu satırda fonksiyon veya method çağrısı olmalıdır.
+
+- Fonksiyonlar veya methodlar fazla miktarda iç içe geçmiş yapıyı barındırmamalıdır ve fonksiyon veya methodlardaki indent sayısı ikiyi aşmamalıdır.
+
+- İngilizce olarak isimlendirilmiş bir fonksiyonun veya methodun isminin başına "To" (Türkçe karşılığı -mek -mak olan mastar) konulduğunda fonksiyonun amacı anlaşılıyorsa, isimlendirme doğrudur.
+
+- Fonksiyonlara veya methodlara uzun isim vermek, uzun yorum satırları yazmaktan iyidir ve uzun isim vermekten kaçınılmamalıdır.
+
+- Fonksiyon veya method çok sayıda parametre almamalı, bu parametreler aynı bağlamda bir sınıf yapısı altında toplanabiliyorsa, fonksiyon veya method o sınıf yapısından oluşan nesneyi parametre almalıdır.
