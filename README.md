@@ -47,3 +47,5 @@ Sınıf:     ShapeFactoryImp
 
 - Her fonksiyon veya method tek bir iş yapacağına göre ve hata değerlendirme de bir iş olduğundan try ifadesinden önce ve catch/finally ifadelerinden sonra herhangi bir ifade fonksiyon veya method içinde yer almamalıdır.
 
+## Yorumlar
+
