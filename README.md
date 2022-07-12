@@ -36,3 +36,14 @@ Sınıf:     ShapeFactoryImp
 - Fonksiyonlara veya methodlara uzun isim vermek, uzun yorum satırları yazmaktan iyidir ve uzun isim vermekten kaçınılmamalıdır.
 
 - Fonksiyon veya method çok sayıda parametre almamalı, bu parametreler aynı bağlamda bir sınıf yapısı altında toplanabiliyorsa, fonksiyon veya method o sınıf yapısından oluşan nesneyi parametre almalıdır.
+
+- Boolean değerler fonksiyon veya method parametresi olmamalıdır. Bunun yerine false ve true durumları için iki ayrı fonksiyon veya method yazılmalıdır.
+
+- Fonksiyon adı "verb" (eylem) parametresinin adı ise "noun" (ad) olmalıdır.
+
+- Fonksiyon veya methodlar hata kodu döndürmek yerine exception'lardan faydalanmalıdır.
+
+- Fonksiyon veya method gövdesinde bulunan try-catch blokları altında birer satır kod bulunmalı ve onlarda fonksiyon veya method çağrısı olmalıdır.
+
+- Her fonksiyon veya method tek bir iş yapacağına göre ve hata değerlendirme de bir iş olduğundan try ifadesinden önce ve catch/finally ifadelerinden sonra herhangi bir ifade fonksiyon veya method içinde yer almamalıdır.
+
