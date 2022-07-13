@@ -1,4 +1,5 @@
 # Temiz Kod Rehberi
+Bu rehber "Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)" kitabındaki görüşler göz önünde bulundurularak hazırlanmıştır.
 
 ## İsimlendirmeler
 - İsimlendirme, isimlendirilen şeyin neden var olduğunu, ne yaptığını ve nasıl kullanıldığını açıklar nitelikte olmalıdır.
