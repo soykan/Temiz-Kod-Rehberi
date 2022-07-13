@@ -49,3 +49,20 @@ Sınıf:     ShapeFactoryImp
 
 ## Yorumlar
 
+- Yorum yazmaya zaman ayırmak yerine kodu temizlemeye zaman ayırılmalıdır. Yorum satırları kodu açıklamak adına daha iyi bir yöntem kalmadığında kullanılır.
+
+- Regex ifadeleri açıklamak için yorum satırı yazılabilir.
+
+- Standart kütüphaneye ait veya düzenleme şansımızın olmadığı koda yorum satırları eklenebilir.
+
+- Projede çalışan diğer yazılımcıları, sorun çıkabilecek yani projeyi zor durumda bırakabilecek durumlara karşı uyarmak için yorum satırları yazılabilir.
+
+- TODO kodlarını düzenli olarak gözden geçirip, temizlemek ve proje içerisinde unutmamak gerekir.
+
+- Kaynak kod dosyasının başına her güncelleme yapıldığında tarih atarak yorum düşmek günümüzde gereksizdir, bunun yerine versiyon kontrol sistemleri kullanılır.
+
+- Eklenen kodun içine ekleyenin kim olduğunu belirtir yorum satırı yazılmaz, bu versiyon kontrol sisteminin işidir.
+
+- Eski kodlar yorum satırına alınmamalı, onun yerine gerektiğinde versiyon kontrol sistemi ile kurtarılmalıdır.
+
+- Yazılan kod değiştikçe ona yönelik yazılmış yorum satırını da güncellemek unutulmamalıdır.
