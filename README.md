@@ -84,3 +84,15 @@ Sınıf:     ShapeFactoryImp
 - Kod yazarken girintileme (indentation) mutlaka kullanılmalı, kısa koşul ve döngü ifadelerinde bile kullanılmalıdır.
 
 - Takım halinde yapılan proje geliştirmelerinde ortak bir formatta yani ortak bir kodlama stilinde kod yazılmalıdır.
+
+## Sınıflar
+
+- Sınıflar değişkenlerle birlikte başlar. Public static constant değişkenler sınıfın en başında yer alır. Devamında private static değişkenler gelir. Ondan sonra ise private instance değişkenleri yer alır.
+
+- Public fonksiyonlar değişkenlerden hemen sonra yer alır. Bir public fonksiyon tarafından çağırılan private fonksiyonlar, bu public fonksiyonun hemen altında konumlandırılır.
+
+- Sınıf yapıları küçük olmalıdır. Fonksiyonların küçüklüğü noktasında satır sayıları fikir verirken, sınıflar noktasında sınıfa ait sorumluluk sayısı fikir verir. Sınıf isminin uzunluğundan sınıf yapısının sorumluluk anlamında genişliği anlaşılabilir.
+
+- Çok sayıda, küçük ve tek amaca hizmet eden sınıf yapıları, az sayıda büyük sınıf yapılarından daha anlaşılır ve yönetilebilirdir. Çok sayıdaki küçük sınıf yapılarından yazılımcılar büyük resmi anlayamayacağını düşünerek kaçınırlar ancak bu yanlış bir tercihtir. İyi tanımlanmış ve isimlendirilmiş sınıf yapıları çok daha yönetilebilir ve anlaşılabilirdir. Bu sebeple yazılımı inceleyen kişinin aradığını, nerede bulabileceğini anlamasına yardımcı olan yapılar tasarlanmalıdır.
+
+- Sınıf yapıları aynı zamanda "Open-Closed Principle" yaklaşımıyla tasarlanmalı. Yani yeni fonksiyonalite eklemeye açık fakat değişime kapalı olmalıdır. Yeni fonksiyonaliteler subclass'lar oluşturularak eklenir ve böylelikle diğer sınıf yapıları etkilenmez.
