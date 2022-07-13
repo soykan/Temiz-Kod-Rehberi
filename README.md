@@ -66,3 +66,21 @@ Sınıf:     ShapeFactoryImp
 - Eski kodlar yorum satırına alınmamalı, onun yerine gerektiğinde versiyon kontrol sistemi ile kurtarılmalıdır.
 
 - Yazılan kod değiştikçe ona yönelik yazılmış yorum satırını da güncellemek unutulmamalıdır.
+
+## Biçimlendirme
+
+- Kaynak kod dosyalarının ismi basit ve açıklayıcı olmalı. İnceleyen kişi doğru modüle baktığını anlayabilmeli.
+
+- Kaynak kod dosyasının, yukarıdan aşağıya doğru inerek okunduğu bilinmeli ve buna uygun şekilde anlaşılır halde hazırlanmalıdır.
+
+- Kaynak kod dosyasının üst satırlara kalan kodları konsept ve algoritmaları high-level olarak açıklayıcı şekilde olmalı, aşağı indikçe low-level detayları barındıran kodlar yer almalıdır.
+
+- Değişkenler fonksiyonun başında tanımlanır ancak döngülerle ilgili kontrol değişkenleri, döngünün hemen üstünde tanımlanır.
+
+- Sınıf yapılarındaki üye değişkenler (member fields) sınıfta en üstte yer alır.
+
+- Birbiri ile bağlantılı method yapıları sınıf içerisinde birbirine yakın konumlandırılmalıdır. Bir method diğerini çağırıyorsa, çağıran method çağrılanın hemen üstünde olmalıdır.
+
+- Kod yazarken girintileme (indentation) mutlaka kullanılmalı, kısa koşul ve döngü ifadelerinde bile kullanılmalıdır.
+
+- Takım halinde yapılan proje geliştirmelerinde ortak bir formatta yani ortak bir kodlama stilinde kod yazılmalıdır.
